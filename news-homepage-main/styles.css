@@ -1,0 +1,114 @@
+.body {
+  background-color: hsl(36, 100%, 99%);
+}
+
+.primary-orange {
+  color: hsl(35, 77%, 62%);
+}
+
+.primary-white {
+  color: hsl(36, 100%, 99%);
+}
+
+.dark-grayish-blue {
+  color: hsl(236, 13%, 42%);
+}
+
+.very-dark-blue {
+  color: hsl(240, 100%, 5%);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  position: absolute;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+.img-main {
+  width: 700px;
+  height: 250px;
+  object-fit: cover;
+}
+
+.new-section {
+  background-color: hsl(240, 100%, 5%);
+}
+
+.solid-div {
+  border-top: 3px solid white;
+  padding: 10px;
+}
+
+.btn {
+  background-color: hsl(5, 85%, 63%);
+  color: white;
+  width: 200px !important;
+  border-radius: 0px !important;
+  font-weight: bold !important;
+  letter-spacing: 5px;
+}
+
+.btn:hover {
+  background-color: hsl(5, 85%, 73%);
+  transition: 0.5s;
+}
+
+.pr-90 {
+  padding-right: 90px;
+}
+
+.image-retro-pcs {
+  width: 150px;
+  height: 200px;
+}
+
+.image-retro-pcs:hover {
+  color: black;
+  transform: scale(1.05);
+  transition: 0.5s ease-in-out;
+  opacity: 0.8;
+}
+
+.sub-title {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.sub-title:hover {
+  color: hsl(35, 77%, 62%);
+  transition: 0.5s;
+  text-decoration: none;
+}
+
+.sub-title-pc {
+  font-size: 25px;
+  font-weight: bold;
+  transition: 0.5s;
+  text-decoration: none;
+}
+
+.sub-title-pc:hover {
+  color: hsl(5, 85%, 63%);
+  transition: 0.5s;
+  text-decoration: none;
+}
+
+
+@media only screen and (max-width: 1000px) {
+  .img-main {
+    width: 100%;
+    height: 50%;
+  }
+
+  .image-retro-pcs {
+    width: 100px;
+    height: 150px;
+  }
+
+  .row-main{
+    padding-bottom: 300px;
+  }
+}
